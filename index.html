@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 5 - BugSmasher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Bug Smasher</h1>
+    <h3 id="scoreTXT">Score: 0</h3>
+    <h3 id="missedTXT">Missed: 0</h3>
+
+    <div id="resetScore" class="button">
+      Reset Score
+    </div>
+
+    <div id="resetSpeed" class="button">
+      Reset Speed
+    </div>
+  </div>
+
+  <!-- GAME -->
+  <p>Gameplay: Click on the bug before it disapears. Each time you click on it, the bug will appear faster.</p>
+  <div class="stage">
+    <canvas id="background-layer">
+      Your browser doesn't support Canvas, try another or update.
+    </canvas>
+    <img id="bug">
+    <h4 id="speedTXT">Speed: 3 seconds</h4>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>&copy; Copyright 2022 - Benjamin Lefebvre (301234587) </footer>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>

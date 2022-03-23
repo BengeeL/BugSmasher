@@ -1,0 +1,111 @@
+body {
+  background-color: #C6DFC9;
+  color: #fff;
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1, h3 {
+  cursor: default;
+  user-select: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 15px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 5px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p {
+  color: #1B2E28;
+}
+
+#speedTXT {
+  z-index: 3;
+  position: relative;
+  color: #1B2E28;
+  background-color: #C6DFC9;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#bug {
+  z-index: 5;
+  position: absolute;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#background-layer {
+  z-index: 1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+footer {
+  background-color: #1B2E28;
+  font-size: small;
+  margin: 3% 0 0;
+  padding: 2% 0 5%;
+  width: 100%;
+  cursor: default;
+  user-select: none;
+}
+
+.header {
+  background-color: #1B2E28;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 3%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  margin: 4% 1% 1%;
+  color: #1B2E28;
+  background-color: #C6DFC9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #F4BBBB;
+  color: #1B2E28;
+}
+
+.stage {
+  width: 700px;
+  height: 550px;
+  position: relative;
+  margin: auto;
+  border: 2px solid #F4BBBB;
+}
